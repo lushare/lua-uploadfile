@@ -11,7 +11,7 @@ string.split = function(s, p)
 end
 -- 文件保存的根路径
 -- local saveRootPath = ngx.var.store_dir .. os.date("/%Y%m/%d/", os.time()+3600*8)
-local baseurl = 'http://img.t.isjue.cn/upload'
+local baseurl = 'http://img.abc.cn/upload'
 local urlPath=os.date("/%Y%m/%d/", os.time()+3600*8)
 local saveRootPath = "/data/openresty/html/upload" .. urlPath
 

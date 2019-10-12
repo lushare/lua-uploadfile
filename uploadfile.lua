@@ -29,7 +29,7 @@ end
 -- local saveRootPath = ngx.var.store_dir .. os.date("/%Y%m/%d/", os.time()+3600*8)
 local uppath = os.date("/%Y%m/%d/", os.time()+3600*8)
 local saveRootPath = "/data/openresty/html/upload" .. uppath
-local urlbase = 'http://img.t.isjue.cn/upload'
+local urlbase = 'http://img.abc.cn/upload'
 
 -- 判断文件夹是否存在，不存在则自动创建
 local file=io.open(saveRootPath, "rb")
